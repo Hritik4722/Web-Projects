@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Open+Sans:wght@500&family=Ubuntu&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+.nav {
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #007feb;
+  height: 8vh;
+}
+.nav h1 {
+  font-size: 25px;
+  margin: 0 20px;
+}
+.nav-option {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0,127,235,0.9);
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: height 1s;
+  color: white;
+  z-index: 999;
+}
+.nav-option ul {
+  list-style: none;
+  text-align: center;
+}
+.nav-option ul li {
+  margin: 20px 10PX;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-option ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.opennav {
+  position: absolute;
+  right: 20px;
+  font-size: 30px;
+  transition: transform 1s;
+}
+.main {
+  height: 92vh;
+  width: 100%;
+  background-color: #000;
+  position: relative;
+}
+.enterpass {
+
+  position: absolute;
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Handjet', cursive;
+}
+.textanim {
+  display: inline-block;
+}
+.textanim p {
+
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  width: 100%;
+  animation: typing 2s steps(18),
+  cursor .5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes cursor {
+
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+.enterpass input {
+  width: 50%;
+  font-size: 18px;
+  padding: 5px;
+  border: solid 2px #01ff0e;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  font-family: 'Handjet', cursive;
+  letter-spacing: 2px;
+}
+.data {
+  position: absolute;
+  display: none;
+  height: 82vh;
+  width: 100%;
+
+  font-size: 23px;
+  overflow: auto;
+}
+.red {
+  color: red;
+}
+.big {
+  font-size: 25px;
+  font-weight: bold;
+}
+.noted {
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 15px 15px 25px 15px;
+  padding: 5px;
+  background-color: white;
+}
+.data p1 {
+  color: white;
+  font-family: 'Handjet', cursive;
+}
+.data p1 p{
+  display: inline-block;
+}
+.line{
+  border-bottom: solid 2px #fff;
+  margin: 10px 0;
+}
+.secretmessage{
+  white-space: normal;
+  overflow-wrap: break-word;
+  width: 95%;
+}
+#incorrect{
+ margin-top:5px;
+}
+@media (min-width: 769px) {
+  body{
+    height: 0;
+  }
+}
