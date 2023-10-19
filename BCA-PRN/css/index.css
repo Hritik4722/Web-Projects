@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/Background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+.header {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.input-opt {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-opt input {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px #01caff;
+}
+.btn {
+  padding: 10px;
+  width: 50vw;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #01caff;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+.inputstyle {
+  width: 80vw;
+  font-size: 20px;
+}
+.datadiv {
+  width: 100%;
+  padding: 10px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.datadiv p {
+  font-size: 20px;
+}
+.card {
+  margin: 10px;
+  padding: 5px;
+  background-color: #0164ff;
+  border: 2px solid #7adbf5;
+  border-radius: 5px;
+}
+#copydiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.btn2 {
+  display: none;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #000;
+  font-weight: bold;
+  border: 2px solid #02d1f6;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 769px) {
+  #inputbox {
+    font-size: 35px;
+  }
+  .btn {
+    width: 30vw;
+    font-size: 25px;
+  }
+  .datadiv p {
+    font-size: 25px;
+  }
+}
