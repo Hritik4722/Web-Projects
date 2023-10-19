@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link class="myStyle" rel="stylesheet" href="css/index.css">
+ 
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="input-div">
+    <input type="text" id="inputdiv" placeholder="Calculator">
+  </div>
+  <div class="btn-div">
+    <div class="pos">
+      <div>
+        <button id="clr" onclick="clear_All()">AC</button>
+        <button id="clr-1" onclick="clr_last()"><=</button>
+        <button id="%" onclick="writee('%')">%</button>
+        <button id="÷" onclick="writee('÷')">÷</button>
+      </div>
+      <div>
+        <button id="1" onclick="writee('1')">1</button>
+        <button id="2" onclick="writee('2')">2</button>
+        <button id="3" onclick="writee('3')">3</button>
+        <button id="+" onclick="writee('+')">+</button>
+      </div>
+      <div>
+        <button id="4" onclick="writee('4')">4</button>
+        <button id="5" onclick="writee('5')">5</button>
+        <button id="6" onclick="writee('6')">6</button>
+        <button id="-" onclick="writee('-')">-</button>
+      </div>
+      <div>
+        <button id="7" onclick="writee('7')">7</button>
+        <button id="8" onclick="writee('8')">8</button>
+        <button id="9" onclick="writee('9')">9</button>
+        <button id="×" onclick="writee('*')">×</button>
+      </div>
+      <div>
+        <button id="<"><</button>
+        <button id="0" onclick="writee('0')">0</button>
+        <button id="." onclick="writee('.')">.</button>
+        <button id="calculate" onclick="calculateResult()"> = </button>
+      </div>
+    </div>
+  </div>
+ <script class="myScript" src="js/index.js"></script>
+</body>
+</html>
