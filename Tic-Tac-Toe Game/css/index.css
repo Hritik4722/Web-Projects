@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+header{
+  width: 100%;
+  background-color: #b46de9;
+  color: #fff;
+  padding: 10px 0 10px 0;
+}
+.gameContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Playpart{
+  display: grid;
+  grid-template-columns: repeat(3,20vw);
+  grid-template-rows: repeat(3,20vw);
+  margin: 20px 0 20px 0 ;
+}
+.boxes{
+  border: solid #000 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.boxtext{
+  font-size: 15vw;
+}
+.tb-0{
+  border-top: none;
+}
+.lb-0{
+  border-left: none;
+}
+.rb-0{
+  border-right: none;
+}
+.bb-0{
+  border-bottom: none;
+}
+#reset{
+  font-size: 1.5rem;
+  padding: 0 20px;
+  background-color: #c49ae4;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px){
+  #reset{
+    font-size: 3rem;
+  }
+}
