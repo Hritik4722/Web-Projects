@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent{
+  background-color: #303e67;
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.parent input{
+  font-size: 20px;
+  padding: 3px;
+  width: 70vw;
+  margin: 0 0 10px 0;
+}
+#btn{
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #355cce;
+  margin: 10px 0px;
+}
+.Center{
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.parent h1{
+  margin: 10px 0px 10px 0px;
+}
+#qrimage{
+  height: 0px;
+  transition: height 1s;
+}
+.shake{
+  border: 2px solid #d71f1f;
+  animation: shake 0.2s infinite;
+}
+
+@keyframes shake {
+  0%{transform : translateX(0px)}
+  25%{transform : translateX(-3px)}
+  50%{transform : translateX(0px)}
+  75%{transform : translateX(3px)}
+  100%{transform : translateX(0)}
+}
