@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ubuntu&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.body {
+  /*background-image: url('/image/Background.png ');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;*/
+  background-color: rgb(238,109,41);
+  color: white;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.header-div {
+  width: 100%;
+  height: 10vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  font-size: 25px;
+  text-align: center;
+  margin: 8px;
+}
+.main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.spawn {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+.spawn span{
+  padding: 4px 10px;
+  
+}
+.operator {
+  background-color: rgba(164,211,224,0.5);
+  border-radius: 5px;
+  display: inline-block;
+  height: 45px;
+  width: 40px;
+}
+.bottombar{
+  width: 100%;
+  height: 20vh;
+  bottom: 0;
+  position: absolute;
+  background-color: rgb(19,124,20);
+  border-radius: 20px 20px 0 0 ;
+  color: white;
+  
+}
+.select{
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transition: font-size 0.5s ease-in-out;
+}
+.select p:nth-child(2) {
+  margin: 0 70px;
+}
+.select p:hover{
+  font-size: 60px;
+}
+#check{
+  background-color: #7e00ff;
+  height: 40px;
+  width: 80%;
+  margin: 10px auto 0 auto;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.intro{
+  height: 90vh;
+  background-color: rgba(152,95,231,0.568);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+}
+#startGame{
+  height: 90px;
+  width: 70%;
+  font-size: 35px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px ;
+  background-color: rgb(242,242,242);
+  color: rgba(229,56,56,0.988);
+}
+.intro div h2{
+  margin: 20px 0 20px 0;
+  padding: 10px;
+  text-align: center;
+}
+.Notpc{
+  display: none;
+}
+.nextq{
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding-left: 10px;
+}
+#hint{
+  color: red;
+  display: inline;
+  font-size: 20px;
+}
+#nextq{
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .body{
+    display: none;
+  }
+  .Notpc{
+    display: block;
+  }
+}
