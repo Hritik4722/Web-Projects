@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Open+Sans:wght@500&family=Ubuntu&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+}
+body{
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+.nav{
+  color: white;
+  width: 100%;
+   display: flex;
+   align-items: center;
+   position: relative;
+  background-color: #007feb;
+  height: 8vh;
+ }
+ .nav h1{
+   font-size: 25px;
+   margin: 0 20px;
+ }
+ .nav-option{
+   position: fixed;
+   width: 100%;
+   background-color: rgba(0,127,235,0.9);
+   height: 0;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: height 1s;
+  color: white;
+  z-index: 999;
+ }
+.nav-option ul{
+  list-style: none;
+  text-align: center;
+}
+.nav-option ul li {
+  margin: 20px 10PX;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-option ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.opennav{
+  position: absolute;
+  right: 20px;
+  font-size: 30px;
+  transition: transform 1s;
+}
+.footer{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 6vh;
+  font-size: 20px;
+  background-color:#007feb ;
+}
+.body{
+ height: 86vh;
+ width: 100%;
+ background-color: #000;
+ color: white;
+ font-size: 20px;
+ overflow: hidden;
+ position: relative;
+ 
+ 
+}
+.center-div{
+  position: absolute;
+  top: 25vh;
+  left: 10%;
+  border-radius: 10px;
+  background-color: #0079e398;
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  flex-direction: column;
+  height: 40vh;
+  width: 80%;
+  /*box-shadow: 5px 5px 5px  rgba(48,169,255,0.472);*/
+  font-family: 'Handjet', cursive;
+  transition: top 1s;
+}
+.center-div h2{
+  font-size: 50px;
+  margin-top: 20px ;
+}
+.center-div p{
+  font-size: 30px;
+  margin-top: 10px;
+}
+.btn{
+  margin-top: 20px;
+  font-size: 25px;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.btn:hover{
+  cursor: pointer;
+}
+.next1{
+  position: absolute;
+  bottom: 50px;
+}
+.next-page{
+  font-family: 'Handjet', cursive;
+  overflow: auto;
+  position: absolute;
+  max-height: 86vh;
+  height: 0;
+  width: 100%;
+  transition: top 1s, height 1s;
+
+  
+  border-left: solid 2px white;
+  margin: 10px;
+  padding: 0 15px 0 15px;
+  top: 0;
+  
+  
+}
+.next-page p {
+  font-size: 36px;
+  margin-top: 10px;
+}
+.next-page p1{
+font-size: 20px;  
+}
+.next-page p1 span{
+  color: rgb(48,255,123);
+  font-weight: bold;
+}
+.btn2{
+  margin-bottom: 80px;
+  font-size: 20px;
+  color: #000;
+}
+.btn2 a {
+  text-decoration: none;
+  color: #000;
+}
+.next-page2{
+  font-family: 'Handjet', cursive;
+  overflow: auto;
+  position: absolute;
+  max-height: 86vh;
+  height: 0;
+  width: 100%;
+  transition: height 1s;
+  padding: 0 15px 0 15px;
+  
+}
+.ab-1, .ab-2{
+  text-align: center;
+  font-size: 20px;
+}
+.ab-2 span{
+  color:rgb(48,255,123) ;
+  font-size: 25px;
+}
+@media (min-width: 769px) {
+  
+}
