@@ -1,0 +1,88 @@
+#home{
+  color: #fff;
+}
+.confession_home{
+  width: 100%;
+  padding-bottom: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav img{
+  height: 45px;
+  
+}
+nav{
+  justify-content: left;
+}
+.con_mes p2{
+  font-size: 0.9rem;
+}
+
+.confession_d{
+  margin: 5px;
+  width: 95%;
+  border-radius: 5px;
+  border: solid 1px #cecece;
+  background-color: #fff;
+  padding: 10px 10px 10px 0px;
+  overflow: hidden;
+}
+.prf_img{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.prf_d1{
+  padding-left: 8px;
+  width: 15%;
+  text-align: center;
+}
+.header_con{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  padding: 0px 8px;
+}
+.header_con p{
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+.header_con span{
+  font-size: 0.5rem;
+  color: #747474;
+}
+.header_con2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.header_con3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.con_mes{
+  width: 100%;
+  padding: 0px 10px;
+}
+.time{
+  padding-left:3px ;
+}
+.btn_clicked{
+  background-color: #9371c2;
+  padding: 0px 15px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.reaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
